@@ -16,6 +16,9 @@ body {
 em {
 	color: rgb(200,105,57);
 }
+.ui-title_1 {
+	font-size: 48px;
+}
 
 header {
 	background-image: url('img/banner-firstPage.webp');
@@ -26,6 +29,9 @@ header {
 
 .menu {
 	display: inline-block;
+}
+nav {
+	background-color: rgba(0, 0, 0, 0.493);
 }
 .nav__link {
 	display: inline-block;
@@ -44,9 +50,10 @@ height: 200vh;
 .banner {
  margin: 30vh 100vh 0;
 }
-.fcont1 {
+
+.cont1 {
 	display: inline-block;
-	margin: 5vh;
+	margin: 5h;
 	padding: 20vh 1vh;
 }
 
