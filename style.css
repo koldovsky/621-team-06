@@ -7,32 +7,43 @@
 	box-sizing: border-box;
 }
 
-html,
-body {
+html {
 	height: 100%;
 	background-color: rgb(38,30,28);
 	color: #fff;
 }
+
+/* color for some text */
 em {
 	color: rgb(200,105,57);
 }
+/* there we can add more headings with the some font-size */
 .ui-title_1 {
-	font-size: 48px;
+	font-size: 84px;
 }
-
+/* code below set the photo on background  */
 header {
 	background-image: url('img/banner-firstPage.webp');
 	background-repeat: no-repeat;
 	background-attachment: fixed;  
 	background-size: cover;
 }
+.block-1 {
+	height: 100vh;
+}
 
 .menu {
 	display: inline-block;
 }
-nav {
-	background-color: rgba(0, 0, 0, 0.493);
+.wrapper_banner {
+	display: flex;
+	justify-content: center;
+	margin: 25vh;
 }
+nav {
+background-color: rgba(0, 0, 0, 0.493);
+}
+
 .nav__link {
 	display: inline-block;
 	font-size: 18px;
@@ -43,17 +54,9 @@ nav {
 
 }
 
-.first {
-height: 200vh;
-}
-
-.banner {
- margin: 30vh 100vh 0;
-}
-
 .cont1 {
 	display: inline-block;
-	margin: 5h;
+	margin: 4vh;
 	padding: 20vh 1vh;
 }
 
