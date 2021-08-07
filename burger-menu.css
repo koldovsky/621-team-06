@@ -1,0 +1,150 @@
+/*Обнуление*/
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	background-color: rgb(38,30,28);
+	color: #fff;
+}
+/*Стили для демонстрации*/
+.wrapper{
+	
+}
+
+
+/* Основные стили */
+
+.container{
+	max-width: 1180px;
+	margin: 0px auto;
+	padding: 0px 10px;
+    background-image: url('img/banner-firstPage.webp');
+	background-repeat: no-repeat;
+	background-attachment:fixed;  
+	background-size: cover;
+}
+
+
+
+.header {
+    background-image: url('img/banner-firstPage.webp');
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+	width: 100%;
+    height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+
+.header__body {
+	position: relative;
+	display: flex;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.493);
+    box-shadow: 15px 15px 15px rgba(216, 211, 211, 0.6);
+    border-radius: 50%;
+    height: 10vh;
+}
+.header__logo {
+	flex: 0 0 150px;
+    border: 1px solid azure ;
+    box-shadow: 15px 10px 20px rgba(216, 211, 211, 0.6);
+    background: linear-gradient(
+      53deg,
+      #ffcccc,
+      #deccff
+    );
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+}
+
+.header__link {
+	display: inline-block;
+	font-size: 18px;
+	margin: 0 10px;
+	padding: 10px 5px;
+	color: #fff;
+	text-decoration: none;
+
+}
+.header__logo img{
+	max-width: 100%;
+	display: block;
+}
+
+
+.header__burger {
+	display: none;
+}
+.header__menu {}
+
+
+.header__list {
+	display: flex;
+	position: relative;
+	z-index: 2;
+}
+.header__list li{
+	list-style: none;
+	margin: 0px 0px 0px 30px;
+}
+.header__link {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.cont1 {
+	display: inline-block;
+	margin: 4vh;
+	padding: 20vh 1vh;
+}
+
+.container_1 {
+width: 40vh;
+height: 40vh;
+background-image: url(img/forYourSpecialEvents.webp);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.container_2 {
+width: 40vh;
+height: 40vh;
+background-image: url(img/100-organic.webp);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.container_3 {
+width: 40vh;
+height: 40vh;
+background-image: url(img/selectedGrapeValues.webp);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+
+
+
+
+
+.content__text p{
+	margin: 0px 0px 20px 0px;
+}
+@media (max-width:767px){
+	.content {
+		padding: 70px 0px 0px 0px;
+	}
+}
