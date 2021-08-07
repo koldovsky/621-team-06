@@ -15,9 +15,11 @@
   }
   
   .active, .accordion:hover {
-	background-color: rgb(200,105,57); 
+	background-color: rgb(2,105,57);
   }
-  
+  .active:hover{
+	transform: scale(0.9); 
+  }
   .panel {
 	padding: 0 18px;
 	height: 10vh;
@@ -25,5 +27,10 @@
 	background-color:rgb(38,30,28);
 	overflow: hidden;
   }
-
+  .pasive{
+	  opacity: .5;
+  }
+  .pasive:hover{
+	  color:azure;
+  }
 /* there we have code for accordione above*/
