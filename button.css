@@ -1,4 +1,4 @@
-.filled-button{
+.filled-button {
     text-align: center;
     display: inline-block;
     color: #fff;
@@ -6,28 +6,40 @@
     border-radius: 2px;
     text-decoration: none;
     padding: 16px 25px;
+    font-family: "Rubik", sans-serif;
     font-weight: bold;
 }
 
+.filled-button:hover {
+    background-color: #af572b;
+    cursor: pointer;
+}
 
 .unfilled-button {
     box-sizing: border-box;
-    line-height: 52px;
     text-align: center;
     display: inline-block;
-    width: 131px;
-    height: 52px;
+    padding: 16px 25px;
     color: #fff;
     border: 3px solid white;
-    border-radius: 1px;
+    border-radius: 2px;
     text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
 }
 
-.button-container{
+.unfilled-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+.button-container {
     display: flex;
     justify-content: flex-start;
 }
 
-.header-padding-unfilled-button{
-   margin: 0px 10px;
+.header-padding-unfilled-button {
+    margin: 0px 10px;
 }
