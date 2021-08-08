@@ -12,3 +12,25 @@ html {
 	background-color: rgb(38,30,28);
 	color: #fff;
 }
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	font-family: "Prata", serif;
+	font-weight: 400;
+	font-size: 48px;
+}
+p{
+	font-family: "Rubic", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.pre-title, .line {
+	font-family: "Great Vibe", cursive;
+	font-size: 28px;
+	color: rgb(200,105,57);
+	font-style: italic;
+}

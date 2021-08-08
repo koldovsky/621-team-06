@@ -1,16 +1,15 @@
 
 
 /* color for some text */
-em {
-	color: rgb(200,105,57);
-}
+
 /* there we can add more headings with the some font-size */
 .ui-title_1 {
+	font-family: "Prata", serif;
 	font-size: 84px;
 }
 /* code below set the photo on background  */
 header {
-	background-image: url('img/banner-firstPage.webp');
+	background-image: url('img/banner-first-page.webp');
 	background-repeat: no-repeat;
 	background-attachment: fixed;  
 	background-size: cover;
@@ -19,35 +18,51 @@ header {
 .header-block {
 	height: 100vh;
 }
+
+.header-logo img{
+	max-width: 100%;
+	display: block;
+}
+.header-logo{
+	max-width: 10%;
+}
+
+
 nav{
 	position: sticky;
 	top: 0;
 	left: 0;
 }
-.menu {
+.container-menu {
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.493);
-	display: inline-block;
-
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
-.wrapper-banner {
-position: static;
-display: flex;
-padding: 50vh 40vh 40vh 100vh;
+.social-media, .menu{
+	display: flex;
 }
-
 
 .nav__link {
-	display: inline-block;
+	display: flex;
 	font-size: 18px;
+	font-family:"Rubic",  sans-serif;
 	margin: 0 10px;
 	padding: 10px 5px;
 	color: #fff;
 	text-decoration: none;
-
+	
 }
 
-.cont1 {
+.wrapper-banner {
+	font-family: "Prata",serif;
+	position: static;
+	display: flex;
+	padding: 50vh 40vh 40vh 100vh;
+	}
+	
+.special-events {
 	display: inline-block;
 	margin: 4vh;
 	padding: 20vh 1vh;
@@ -56,9 +71,9 @@ padding: 50vh 40vh 40vh 100vh;
 .container_1 {
 width: 40vh;
 height: 40vh;
-background-image: url(img/forYourSpecialEvents.webp);
+background-image: url(img/for-your-special-events.webp);
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 }
 
 .container_2 {
@@ -66,15 +81,15 @@ width: 40vh;
 height: 40vh;
 background-image: url(img/100-organic.webp);
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 }
 
 .container_3 {
 width: 40vh;
 height: 40vh;
-background-image: url(img/selectedGrapeValues.webp);
+background-image: url(img/selected-grape-values.webp);
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 }
 /* .footer-services {
 	display:inline-block;
