@@ -1,0 +1,51 @@
+.history {
+    margin-top: 120px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.shop {
+    display: flex;
+    gap: 30px;
+}
+
+.shop-red-wines,
+.shop-white-wines {
+    flex: 1;
+    height: 422px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px;
+}
+
+.shop-red-wines {
+    background-image: url("img/shop-red-wines.webp");
+}
+
+.shop-white-wines {
+    background-image: url("img/shop-white-wines.webp");
+}
+
+.shop h3 {
+    font-size: 32px;
+    line-height: 32px;
+}
+.line {
+    height: 2px;
+    width: 48px;
+    background-color: #c8693a;
+    margin: 15px 0;
+}
+.shop .filled-button {
+    font-size: 15px;
+    margin-top: 40px;
+}

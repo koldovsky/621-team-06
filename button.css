@@ -1,13 +1,12 @@
 .filled-button{
-    line-height: 52px;
     text-align: center;
     display: inline-block;
-    width: 131px;
-    height: 52px;
     color: #fff;
     background-color: #c8693a;
-    border-radius: 1px;
+    border-radius: 2px;
     text-decoration: none;
+    padding: 16px 25px;
+    font-weight: bold;
 }
 
 
