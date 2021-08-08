@@ -59,7 +59,7 @@ nav{
 	font-family: "Prata",serif;
 	position: static;
 	display: flex;
-	padding: 50vh 40vh 40vh 100vh;
+	padding: 0 0 40vh 40vh;
 	}
 	
 .special-events {

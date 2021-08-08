@@ -1,9 +1,33 @@
 .filled-button{
-
+    line-height: 52px;
+    text-align: center;
+    display: inline-block;
+    width: 131px;
+    height: 52px;
+    color: #fff;
+    background-color: #c8693a;
+    border-radius: 1px;
+    text-decoration: none;
 }
 
 
 .unfilled-button {
-    
+    line-height: 52px;
+    text-align: center;
+    display: inline-block;
+    width: 131px;
+    height: 52px;
+    color: #fff;
+    border: 3px solid white;
+    border-radius: 1px;
+    text-decoration: none;
 }
 
+.button-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-padding-unfilled-button{
+   margin: 0px 10px;
+}
