@@ -70,32 +70,33 @@ nav{
 .special-events {
 	display: inline-block;
 	margin: 4vh;
-	padding: 20vh 1vh;
+	padding: 20vh 10vh;
 }
 
-.container_1 {
-width: 40vh;
-height: 40vh;
+.container-photo-event {
+width: 369px;
+height: 475px;
 background-image: url(img/for-your-special-events.webp);
 background-repeat: no-repeat;
 background-size: cover;
 }
 
-.container_2 {
-width: 40vh;
-height: 40vh;
+.container-photo-event1 {
+width: 369px;
+height: 475px;
 background-image: url(img/100-organic.webp);
 background-repeat: no-repeat;
 background-size: cover;
 }
 
-.container_3 {
-width: 40vh;
-height: 40vh;
+.container-photo-event2 {
+width: 369px;
+height: 475px;
 background-image: url(img/selected-grape-values.webp);
 background-repeat: no-repeat;
 background-size: cover;
 }
+
 
 .center-title{
 	display: block;
@@ -103,3 +104,27 @@ background-size: cover;
 	margin: auto ;
 }
 
+.block-specials{
+border:none;
+}
+.aside-feature{
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.container-for-special{
+	display: flex;
+	margin: auto;
+
+}
+
+.container-part-content-left{
+	margin-right: 20px;
+	
+}
+.paragraf-items{
+	padding: auto;
+	width: 300px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
