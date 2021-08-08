@@ -29,6 +29,7 @@ p{
 }
 
 .pre-title, .line {
+	display: flex;
 	font-family: "Great Vibe", cursive;
 	font-size: 28px;
 	color: rgb(200,105,57);

@@ -60,7 +60,11 @@ nav{
 	position: static;
 	display: flex;
 	padding: 0 0 40vh 40vh;
-	}
+}
+
+.header-content{
+	margin: 20px 0;
+}
 	
 .special-events {
 	display: inline-block;
@@ -91,30 +95,4 @@ background-image: url(img/selected-grape-values.webp);
 background-repeat: no-repeat;
 background-size: cover;
 }
-/* .footer-services {
-	display:inline-block;
-} */
 
-.services {
-	width: 20vw;
-	height: 20vh;
-
-	display: inline-block;
-}
-
-.instagram {
-
-width: 40%;
-margin: 0 auto;
-font-size: 0;
-text-align: center;
-}
-
-
-.insta-item {
-width: 200px;
-height: 200px;
-display: inline-block;
-margin: 4px;
-font-size: 1rem;
-}

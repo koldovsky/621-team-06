@@ -12,6 +12,7 @@
 
 
 .unfilled-button {
+    box-sizing: border-box;
     line-height: 52px;
     text-align: center;
     display: inline-block;

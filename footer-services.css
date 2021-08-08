@@ -1,0 +1,28 @@
+.footer-services {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services {
+    background-color: #fff;
+    border-radius: 50%;
+	width: 20vw;
+	height: 20vh;
+
+}
+
+.instagram {
+width: 40%;
+margin: 0 auto;
+font-size: 0;
+text-align: center;
+}
+
+
+.insta-item {
+width: 200px;
+height: 200px;
+display: inline-block;
+margin: 4px;
+font-size: 1rem;
+}
