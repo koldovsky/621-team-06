@@ -10,7 +10,9 @@
 	height: 20vh;
 
 }
-
+.asked-q{
+    display: flex;
+}
 .instagram {
 width: 40%;
 margin: 0 auto;
