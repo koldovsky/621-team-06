@@ -24,7 +24,7 @@ header {
 	display: block;
 }
 .header-logo{
-	max-width: 10%;
+	max-width: 20vw;
 }
 
 
@@ -34,8 +34,9 @@ nav{
 	left: 0;
 }
 .container-menu {
+	height: 100px;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0);
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -59,7 +60,7 @@ nav{
 	font-family: "Prata",serif;
 	position: static;
 	display: flex;
-	padding: 0 0 40vh 40vh;
+	padding: 40vh 0 40vw 40vw;
 }
 
 .header-content{
@@ -94,5 +95,11 @@ height: 40vh;
 background-image: url(img/selected-grape-values.webp);
 background-repeat: no-repeat;
 background-size: cover;
+}
+
+.center-title{
+	display: block;
+	width: 100vh;
+	margin: auto ;
 }
 
