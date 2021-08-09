@@ -81,3 +81,28 @@
     z-index: 1;
     position: relative;
 }
+
+.awards-info {
+    text-align: center;
+}
+
+.awards-info .pre-title,
+.awards-info img {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.awards-info .ui-title_1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.awards {
+    margin-top: 100px;
+}
+
+.awards-description {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
