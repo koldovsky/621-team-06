@@ -65,7 +65,7 @@ nav{
 }
 
 
-.wrapper-banner {
+.wrapper-content-hero {
 	margin: 0 auto;
 	justify-content: center;
 	align-items: center;
@@ -73,6 +73,11 @@ nav{
 	font-family: "Prata",serif;
 	padding: 9vh 0 40vw 40vw;
 }
+
+.wrapper-content-hero img{
+	width: 50%;
+}
+
 .child-banner{
 	display: flex;
 	flex-direction: column;
@@ -86,13 +91,13 @@ nav{
 
 .block-events{
 	display: flex;
-
+	margin: auto 10vh ;
 }
 	
 
 .special-events {
 	margin: 4vh;
-	padding: 20vh 10vh;
+	padding: 50vh 10vh;
 }
 
 .container-photo-event {
