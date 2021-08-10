@@ -82,23 +82,24 @@
     position: relative;
 }
 
-.awards-info {
+.title-info {
     text-align: center;
 }
 
-.awards-info .pre-title,
-.awards-info img {
+.title-info .pre-title,
+.title-info img {
     display: inline-block;
     margin-bottom: 20px;
 }
 
-.awards-info .ui-title_1 {
+.title-info .ui-title_1 {
     font-size: 48px;
     margin-bottom: 20px;
 }
 
 .awards {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .awards-description {
@@ -124,4 +125,16 @@
     font-size: 16px;
     color: rgb(137, 128, 130);
     line-height: 25px;
+}
+
+.title-info p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.slider {
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(137, 128, 130);
 }
