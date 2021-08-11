@@ -12,10 +12,7 @@
     font-weight: 300;
     
 }
-.logo {
-    font-size: ;
-    
-}
+
 img {
     max-width: 100%;
     display: block;
@@ -42,10 +39,7 @@ img {
     margin-left: 50%;
               
     }
-.text-wine {
-    
-    
-}
+
 .wine-photo {
     flex-direction: row;
 }
