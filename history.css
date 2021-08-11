@@ -75,6 +75,7 @@
 
 .discount h2 {
     margin-bottom: 30px;
+    font-size: 41px;
 }
 
 .discount-content {
@@ -104,7 +105,7 @@
 
 .awards-description {
     display: grid;
-    grid-template-columns: 170px 170px 170px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
     align-items: center;
     gap: 30px;
     margin-top: 50px;
@@ -119,6 +120,7 @@
 .awards-description-date {
     font-size: 22px;
     font-weight: 400;
+    font-family: 'Prata', serif;
 }
 
 .awards-description-text {
@@ -137,4 +139,30 @@
     font-size: 16px;
     line-height: 25px;
     color: rgb(137, 128, 130);
+}
+
+@media screen and (max-width: 760px) {
+    .shop {
+        flex-direction: column;
+    }
+
+    .discount h2 {
+        font-size: 34px;
+    }
+
+    .title-info .pre-title {
+        font-size: 14px;
+    }
+
+    .title-info .ui-title_1 {
+        font-size: 34px;
+    }
+
+    .awards-description {
+        grid-template-columns: 1fr;
+    }
+
+    .awards-description img {
+        width: 100%;
+    }
 }
