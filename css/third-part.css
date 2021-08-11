@@ -1,45 +1,41 @@
-
 .range-wines {
-    
-    text-align:center;
+  text-align: center !!!;
 }
 .mini-title {
-    display: flex;
-    font-family: "Great Vibes", cursive;
-    font-size: 28px;
-    color: rgb(200, 105, 57);
-    font-style: italic;
-    font-weight: 300;
-    
+  display: flex;
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
+  color: rgb(200, 105, 57);
+  font-style: italic;
+  font-weight: 300;
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 .white-wine-image {
-    display: flex;
-	margin-bottom: 100px;
+  display: flex;
+  margin-bottom: 100px;
 }
 .wine-details {
-    background-image: url(https://res2.weblium.site/res/60115ce126eea30022ce1a18/60220fbc97d5fb0021953f7e_optimized_1920);
-    background-size: cover;
-    background-position: 80.12% 43.66%;
-    padding-top: 300px;
+  background-image: url(https://res2.weblium.site/res/60115ce126eea30022ce1a18/60220fbc97d5fb0021953f7e_optimized_1920);
+  background-size: cover;
+  background-position: 80.12% 43.66%;
+  padding-top: 300px;
 }
 .wine-title {
-    position: relative;
-    min-width: 320px;
-    padding-top: 160px;
-    padding-bottom: 90px;
-    box-sizing: border-box;
-    text-align: justify;
+  position: relative;
+  min-width: 320px;
+  padding-top: 160px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+  text-align: justify;
 }
 .details {
-    margin-left: 50%;
-              
-    }
+  margin-left: 50%;
+}
 
 .wine-photo {
-    flex-direction: row;
+  flex-direction: row;
 }
