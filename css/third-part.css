@@ -4,12 +4,13 @@
     text-align:center;
 }
 .mini-title {
-    display: flex;
+    
     font-family: "Great Vibes", cursive;
     font-size: 28px;
     color: rgb(200, 105, 57);
     font-style: italic;
     font-weight: 300;
+    text-align: center;
     
 }
 
@@ -42,4 +43,8 @@ img {
 
 .wine-photo {
     flex-direction: row;
+    justify-content: space-around;
+}
+.buy-wines {
+    text-align: center;
 }
