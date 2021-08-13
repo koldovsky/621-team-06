@@ -26,15 +26,7 @@ img {
     background-image: url(https://res2.weblium.site/res/60115ce126eea30022ce1a18/60220fbc97d5fb0021953f7e_optimized_1920);
     background-size: cover;
     background-position: 80.12% 43.66%;
-    display: grid;
-  padding: 2rem;
-  grid-template-columns: 300px 1fr;
-  gap: 1rem;
-  align-items: center;
-  text-align: left;
-  margin: 0 auto;
-  font: 500 100%/1.5 system-ui;
-  max-width: 800px;
+   
   
 }
 .wine-title {
