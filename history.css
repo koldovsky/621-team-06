@@ -1,4 +1,4 @@
-.history {
+.history-description {
     margin-top: 120px;
 }
 
@@ -40,7 +40,7 @@
     line-height: 32px;
 }
 
-.history .line {
+.history-description .line {
     height: 2px;
     width: 48px;
     background-color: #c8693a;
