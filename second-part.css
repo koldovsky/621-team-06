@@ -1,5 +1,6 @@
 
 .container-with-nav {
+    
     background-image: url("https://res2.weblium.site/res/60115ce126eea30022ce1a18/601965ec4468a90021f68613_optimized_1920");
     text-align: center;
     background-repeat: no-repeat;
@@ -29,13 +30,15 @@ p.subtitle {
     color: white;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
-    padding-bottom: 55px;
+    margin-bottom: 55px;
     margin-top: 20px;
 }
 div.buttom {
     padding-bottom: 175px;
 }
 a.orange-button {
+    weight: 119px;
+    height: 41px;
     border-radius: 3px;
     font-size: 15px;
     color: white;
@@ -45,8 +48,6 @@ a.orange-button {
     font-weight: 700;
     text-decoration: none;
     border-radius: 2px;
-    position: relative;
-    display: inline-block;
     border: 3px solid #c8693a;
 }
 a.orange-button:hover {
@@ -55,6 +56,8 @@ a.orange-button:hover {
     cursor: pointer;
 }
 a.clear-button {
+    weight: 119px;
+    height: 41px;
     color: #fff;
     background-color: clear;
     border-radius: 3px;
@@ -63,9 +66,9 @@ a.clear-button {
     font-family: "Rubik", sans-serif;
     font-weight: 700;
     font-size: 15px;
-    position: relative;
-    display: inline-block;
     border: 3px solid white;
+    text-align: center;
+
 }
 a.clear-button:hover {
     background-color: #ffffff;
@@ -108,7 +111,7 @@ a.clear-button:hover {
     margin-right: auto 
 }
 .history {
-    margin: auto 139px;
+    margin: auto 219.5px;
 }
 .stage {
     padding-left: 15px;
