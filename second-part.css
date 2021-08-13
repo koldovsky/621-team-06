@@ -108,19 +108,21 @@ a.clear-button:hover {
     margin-right: auto 
 }
 .history {
-    margin-left: 130px;
-    margin-right: 130px;
+    margin: auto 139px;
 }
 .stage {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 120px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 .stage_year {
     color: rgb(200, 105, 58);
     font-family: "Rubik", sans-serif;
     font-size: 14px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .stage_name {
     color: rgb(255, 255, 255);
@@ -131,7 +133,7 @@ a.clear-button:hover {
 }
 .stage_info {
     color: rgb(137, 128, 130);
-    font-family: 'Prata', serif;
+    font-family: "Rubik", sans-serif;
     font-size: 16px;
     width: 260px;
     height: 125px;
@@ -140,8 +142,8 @@ a.clear-button:hover {
 #history {
     display: flex;
 	justify-content: space-between;
-    margin-left: 225px;
-    margin-right: 220px;
+    margin-left: 219px;
+    margin-right: 219px;
 }
 button.orange-button {
     border-radius: 3px;
