@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exper-button.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="accordion.css">
@@ -20,7 +21,7 @@
 </head>
 
 <body id="top">
-    <header class="header-block">
+    <header class="header-block" id = 'slide-bg'>
         <div class="container-header">
             <nav>
                 <div class="container-menu">
@@ -33,6 +34,7 @@
                         <a href="#about__us" class="nav__link ">About Us</a>
                         <a href="#shop" class="nav__link ">Shop</a>
                         <a href="#contact__us" class="nav__link ">Contact us</a>
+                        <div class="clock nav__link"></div>
                     </div>
 
                     <div class="social-media">
@@ -462,31 +464,6 @@
         <!-- кінець частини 4 -->
 
         <!-- початок останньої частини -->
-        <section class="asked-q">
-            <div class="accordion-container">
-                <span class="pre-title">FAQ</span>
-                <h2 class="accorion-heading">Have a question?</h2>
-                <img src="img/two-branches-grape.svg" alt="two-branches-grape">
-                <p>Wine is a bottled poetry. Read some stories from our customers below.</p>
-
-                <span>“I really like to please myself with good wine with a rich taste. Therefore, from time to
-                    time, I
-                    order wine directly from the CaliWines winery. I also buy Chardonnay and Cabernet for family
-                    holidays.
-                    We are completely delighted with the amazing taste of these wines, which we want to enjoy
-                    endlessly.”</span>
-                <span>“We were to hold a responsible event with a buffet table and wanted to surprise our guests
-                    with some
-                    local products. I recalled that we have the CaliWines winery in California and ordered 10
-                    bottles of
-                    Chardonnay. Our guests were delighted and asked for the name of the producer!”</span>
-                <span>“We were to hold a responsible event with a buffet table and wanted to surprise our guests
-                    with some
-                    local products. I recalled that we have the CaliWines winery in California and ordered 10
-                    bottles of
-                    Chardonnay. Our guests were delighted and asked for the name of the producer!”</span>
-            </div>
-        </section>
 
         <section class="blog-section">
             <span class="pre-title">Blog</span><br>
@@ -534,7 +511,7 @@
                     <p>We are located in the Napa Valley, America's most famous wine region.</p>
                 </div>
 
-                <script src="script.js"></script>
+               
             </div>
 
 
@@ -584,7 +561,7 @@
         </section>
     </main>
     <footer>
-        <section>
+        <section class="footer-section">
             <div>
                 <h2>Contact us</h2><br>
                 <p class="line"></p><br>
@@ -596,18 +573,18 @@
             <div>
                 <h2>Information</h2><br>
                 <p class="line"></p>
-                <a href="#history" class="nav__link_footer">History</a><br>
-                <a href="#about__us" class="nav__link_footer">About Us</a><br>
-                <a href="#awards" class="nav__link_footer">Awards</a><br>
+                <a href="#history" class=" nav__link nav__link_footer">History</a><br>
+                <a href="#about__us" class="nav__link nav__link_footer">About Us</a><br>
+                <a href="#awards" class="nav__link nav__link_footer">Awards</a><br>
 
             </div>
 
             <div>
                 <h2>Shop</h2>
                 <p class="line"></p>
-                <a href="#best_deals" class="nav__link_footer">Best deals</a><br>
-                <a href="#awards" class="nav__link_footer">Awards</a><br>
-                <a href="#awards" class="nav__link_footer">Awards</a><br>
+                <a href="#best_deals" class="nav__link nav__link_footer">Best deals</a><br>
+                <a href="#awards" class="nav__link nav__link_footer">Awards</a><br>
+                <a href="#awards" class="nav__link nav__link_footer">Awards</a><br>
 
             </div>
 
@@ -621,7 +598,9 @@
             </div>
         </section>
     </footer>
-
+    <script src="../js/script.js"></script>
+    <script src="../js/slide-bg.js"></script>
+    <script src="../js/clock.js"></script>
 </body>
 
 </html>

@@ -20,6 +20,13 @@ header {
 	background-attachment: fixed;  
 	background-size: cover;
 }
+#slide-bg{
+width: 100%;
+height: 100vh;
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
 
 .header-block {
 	height: 100vh;

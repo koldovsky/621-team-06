@@ -26,3 +26,13 @@ display: inline-block;
 margin: 4px;
 font-size: 1rem;
 }
+
+.instagram{
+    display: flex;
+    overflow: hidden;
+}
+
+.footer-section{
+	display: flex;
+	max-width: 100%;
+}
