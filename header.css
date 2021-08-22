@@ -1,8 +1,20 @@
 
 
-/* color for some text */
+.bag {
+	background-color: #fff;
+	border-radius: 50% ;
+	height: 10vh;
+	width: 10vh;
+	padding: 5px;
+	position: fixed;
+	top: 100px;
+	right: 30px;
+}
+.bag:hover{
+	cursor: pointer;
+	background-color: rgb(238, 234, 234);
+}
 
-/* there we can add more headings with the some font-size */
 .line {
 	height: 2px;
     width: 48px;

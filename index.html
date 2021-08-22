@@ -16,11 +16,12 @@
     <link rel="shortcut icon" href="img/wine-bottle-favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/third-part.css">
     <link rel="stylesheet" href="second-part.css">
-
+    <link rel="stylesheet" href="modal.css">
     <title>Wine Store</title>
 </head>
 
 <body id="top">
+    <img src="img/shop-bag.svg" alt="Wine Logo" class="bag" id="myBtn" />
     <header class="header-block" id = 'slide-bg'>
         <div class="container-header">
             <nav>
@@ -28,7 +29,7 @@
                     <div class="header-logo">
                         <img src="img/logo-text.svg" alt="Wine Logo" class="nav__link" />
                     </div>
-                    <div class="menu">
+                    <div class="menu navbar-links">
                         <a href="#best__deals" class="nav__link ">Best deals</a>
                         <a href="#history" class="nav__link ">History</a>
                         <a href="#about__us" class="nav__link ">About Us</a>
@@ -36,8 +37,10 @@
                         <a href="#contact__us" class="nav__link ">Contact us</a>
                         <div class="clock nav__link"></div>
                     </div>
-
-                    <div class="social-media">
+                    <button class="navbar-button btn btn-danger" type="button">
+                        ☰
+                      </button>
+                    <div class="social-media navbar-links">
                         <a href="https://facebook.com/" class="nav__link">
                             <img src="img/facebook.logo.svg" width="20" alt="Facebook Icon">
                         </a>
@@ -598,9 +601,21 @@
             </div>
         </section>
     </footer>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p style="color: red;">  Some text in the Modal..</p>
+        </div>
+      
+      </div>
+    
     <script src="../js/script.js"></script>
     <script src="../js/slide-bg.js"></script>
     <script src="../js/clock.js"></script>
+    <script src="../js/burger.js"></script>
+    <script src="../js/modal.js"></script>
 </body>
 
 </html>
