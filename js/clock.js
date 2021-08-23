@@ -5,4 +5,5 @@ function clockDoer(){
 let clock = document.querySelector('.clock');
 clock.innerText = new Date().toLocaleTimeString();
 }
+clockDoer()
 })();
