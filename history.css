@@ -1,4 +1,4 @@
-.history {
+.history-description {
     margin-top: 120px;
 }
 
@@ -40,7 +40,7 @@
     line-height: 32px;
 }
 
-.history .line {
+.history-description .line {
     height: 2px;
     width: 48px;
     background-color: #c8693a;
@@ -136,9 +136,29 @@
 }
 
 .slider {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
     font-size: 16px;
     line-height: 25px;
     color: rgb(137, 128, 130);
+}
+
+.slide {
+    flex: 0 1 740px;
+}
+
+.arrow-left,
+.arrow-right {
+    width: 30px;
+    height: 30px;
+    background: none;
+    cursor: pointer;
+}
+
+.arrow-left {
+    transform: rotate(180deg);
 }
 
 @media screen and (max-width: 760px) {
