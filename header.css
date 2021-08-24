@@ -21,6 +21,7 @@
     background-color: #c8693a;
     margin: 15px 0;
 }
+
 .ui-title_1 {
 	font-family: "Prata", serif;
 	font-size: 84px;
@@ -98,9 +99,11 @@ nav{
 }
 
 .child-banner{
+	max-width:400px ;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	background-color: rgba(180, 92, 92, 0.473);
 }
 
 
