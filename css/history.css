@@ -28,11 +28,11 @@
 }
 
 .shop-red-wines {
-    background-image: url("img/shop-red-wines.webp");
+    background-image: url("../img/shop-red-wines.webp");
 }
 
 .shop-white-wines {
-    background-image: url("img/shop-white-wines.webp");
+    background-image: url("../img/shop-white-wines.webp");
 }
 
 .shop h3 {

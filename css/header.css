@@ -28,7 +28,7 @@
 }
 /* code below set the photo on background  */
 header {
-	background-image: url('img/banner-first-page.webp');
+	background-image: url('../img/banner-first-page.webp');
 	background-repeat: no-repeat;
 	background-attachment: fixed;  
 	background-size: cover;
@@ -125,7 +125,7 @@ nav{
 .container-photo-event {
 width: 369px;
 height: 475px;
-background-image: url(img/for-your-special-events.webp);
+background-image: url('../img/for-your-special-events.webp');
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -133,7 +133,7 @@ background-size: cover;
 .container-photo-event1 {
 width: 369px;
 height: 475px;
-background-image: url(img/100-organic.webp);
+background-image: url('../img/100-organic.webp');
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -141,7 +141,7 @@ background-size: cover;
 .container-photo-event2 {
 width: 369px;
 height: 475px;
-background-image: url(img/selected-grape-values.webp);
+background-image: url('../img/selected-grape-values.webp');
 background-repeat: no-repeat;
 background-size: cover;
 }
