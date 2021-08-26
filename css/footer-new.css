@@ -1,0 +1,58 @@
+footer {
+    background: #1a1512;
+    padding-top: 110px;
+}
+
+.footer-join {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    margin-bottom: 60px;
+}
+
+.footer-join-description h3 {
+    font-size: 32px;
+    margin: 20px 0 25px;
+}
+
+.footer-form {
+    width: 370px;
+    font-size: 15px;
+}
+
+.footer-form input,
+.footer-form button {
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+.footer-form input {
+    background: rgba(73, 73, 73, 0.24);
+    color: white;
+    padding: 16px 25px;
+    margin-bottom: 24px;
+}
+
+.footer-info {
+    display: flex;
+}
+
+.footer-info-column {
+    flex: 1;
+}
+
+.footer-info-column a {
+    display: block;
+}
+
+.footer-instagram img {
+    width: 85px;
+}
+
+.footer-instagram {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
