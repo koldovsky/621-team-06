@@ -37,6 +37,7 @@ footer {
 
 .footer-info {
     display: flex;
+    padding-bottom: 60px;
 }
 
 .footer-info-column {
@@ -81,4 +82,16 @@ footer {
 
 .footer-info-column-link:hover {
     color: #c8693a;
+}
+
+.footer-confiden {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(19, 15, 14);
+    padding: 15px 0;
+    line-height: 32px;
+}
+
+.footer-confiden p {
+    font-size: 14px;
 }
