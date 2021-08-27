@@ -56,3 +56,29 @@ footer {
     flex-wrap: wrap;
     gap: 15px;
 }
+
+.footer-info-column h4 {
+    font-size: 22px;
+}
+
+.footer-info-column a {
+    color: rgb(137, 128, 130);
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer-info-column p {
+    color: rgb(137, 128, 130);
+    font-size: 14px;
+}
+
+.footer-info-column-link {
+    font-weight: 500;
+}
+
+.footer-info-column-link:hover {
+    color: #c8693a;
+}
