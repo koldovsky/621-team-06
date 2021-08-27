@@ -4,41 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/shopping-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet">
     <title>Cabarnet</title>
 </head>
 <body>
-    <nav>
-        <div class="menu">
-            <img src="img/logo-with-logoText.svg" width="200" alt="Wine Logo" class="nav__link" />
-            <a href="#best__deals" class="nav__link">Best deals</a>
-            <a href="#history" class="nav__link">History</a>
-            <a href="#about__us" class="nav__link">About Us</a>
-            <a href="#shop" class="nav__link">Shop</a>
-            <a href="#contact__us" class="nav__link">Contact us</a>
-        </div>
-        <a href="https://facebook.com/" class="nav__link">
-            <img src="img/facebook.logo.svg" width="20" alt="Facebook Icon">
-        </a>
-        <a href="https://instagram.com/" class="nav__link">
-            <img src="img/instagram-logo.svg" width="20" alt="Instagram Icon">
-        </a>
-        <a href="https://youtube.com/" class="nav__link">
-            <img src="img/youTube-logo.svg" width="20" alt="youTube Icon">
-        </a>
-    </nav>
+    <img src="img/shop-bag.svg" alt="Wine Logo" class="bag" id="myBtn" />
+    <header class="header-block" id='slide-bg'>
+            <div class="container-menu ">
+                <div class="header-logo">
+                    <img src="img/logo-text.svg" alt="Wine Logo" class="nav__link" />
+                </div>
+                <div class="menu navbar-links">
+                    <a href="#best__deals" class="nav__link ">Best deals</a>
+                    <a href="#history" class="nav__link ">History</a>
+                    <a href="#about__us" class="nav__link ">About Us</a>
+                    <a href="#shop" class="nav__link ">Shop</a>
+                    <a href="#contact__us" class="nav__link ">Contact us</a>
+                    <div class="clock nav__link"></div>
+                </div>
+                <button class="navbar-button btn btn-danger" type="button">
+                    ☰
+                </button>
+                <div class="social-media navbar-links">
+                    <a href="https://facebook.com/" class="nav__link">
+                        <img src="img/facebook.logo.svg" width="20" alt="Facebook Icon">
+                    </a>
+                    <a href="https://instagram.com/" class="nav__link">
+                        <img src="img/instagram-logo.svg" width="20" alt="Instagram Icon">
+                    </a>
+                    <a href="https://youtube.com/" class="nav__link">
+                        <img src="img/youTube-logo.svg" width="20" alt="youTube Icon">
+                    </a>
+                </div>
+            </div>
+    </header>
     <main>
+        <a href="index.html" class="nav-link">Store homepage</a>
+        <div class="main">
         <aside>
-            <a href="index.html" class="nav__link">Store homepage</a>
-            <button class="arrow_button"> < </button>
-            <img src="img/red_wine_bottle.jpg" width="135" alt="Cabarnet_wine">
-            <button class="arrow_button"> > </button>
-            <img src="img/red_wine_bottle.jpg" width="55" alt="Cabarnet_wine">
+            <img src="img/red-wine-bottle.jpg" width="135" alt="Cabarnet_wine">
+            <img src="img/red-wine-bottle.jpg" width="55" alt="Cabarnet_wine">
         </aside>
         <section>
-            <p class="in_stock">In stock</p>
-            <p class="wine_name">Cabernet</p>
-            <p class="product_code">Product code 18</p>
-            <p class="wine_price">17,00USD</p>
+            <p class="in-stock">In stock</p>
+            <p class="wine-name">Cabernet</p>
+            <p class="product-code">Product code 18</p>
+            <p class="wine-price">17,00USD</p>
             <div>
                 <div class="divider">-</div>
                 <button class="quantity_of_goods">1</button>
@@ -46,8 +60,9 @@
                 <p class="description">DESCRIPTION</p>
                 <div class="divider">-</div>
             </div>
-            <p class="wine_description">If you don't want which red wine to buy, think of this Cabernet. It has a very deep dark purple color and opens with boysenberry, bourbon, and vanilla aromas. Then you'll feel brown sugar, cocoa, spices, and currants. It's a wine with a really rich taste.</p>
+            <p class="wine-description">If you don't want which red wine to buy, think of this Cabernet. It has a very deep dark purple color and opens with boysenberry, bourbon, and vanilla aromas. Then you'll feel brown sugar, cocoa, spices, and currants. It's a wine with a really rich taste.</p>
         </section>
+        </div>
     </main>
 </body>
 </html>
