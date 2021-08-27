@@ -21,7 +21,7 @@
     <title>Wine Store</title>
 </head>
 
-<body id="top">
+<body id="top" class="modal-open">
     <img src="img/shop-bag.svg" alt="Wine Logo" class="bag" id="myBtn" />
     <header class="header-block" id='slide-bg'>
         <div class="container-header">
@@ -613,24 +613,29 @@
 
     </div>
 
+    <div id="popup" class="popup">
+        <div class="popup-body">
+            <div class="popup-content">
+                <div class="popup-title">Confirm Your Age</div>
+                <img class="popup-image" src="img/grape-branches.svg" alt="grape branches">
+                <div class="popup-text">We don't sell alcohol to minors. Please confirm that you are over 21 years old to enter this site.</div>
+                <div class="popup-button">
+                    <a href="#" class="popup-confirm">Yes, I'm 21+</a>
+                    <a href="https://benefit.ua/catalog/dityache-harchuvannya" class="popup-cancel">No, I'm under 21</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="../js/script.js"></script>
     <script src="../js/slide-bg.js"></script>
     <script src="../js/clock.js"></script>
     <script src="../js/burger.js"></script>
     <script src="../js/modal.js"></script>
     <script src="./js/carousel.js"></script>
+    <script src="../js/popup.js"></script>
 
-    <div id="popup" class="popup">
-        <div class="popup-body">
-            <div class="popup-content">
-                <div class="popup-title">Confirm Your Age</div>
-                <img src="" alt="">
-                <div class="popup-text">We don't sell alcohol to minors. Please confirm that you are over 21 years old to enter this site.</div>
-                <a href="" class="popup-confirm">Yes, I'm 21+</a>
-                <a href="" class="popup-cancel">No, I'm under 21</a>
-            </div>
-        </div>
-    </div>
+    
 </body>
 
 </html>
