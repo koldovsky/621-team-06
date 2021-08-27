@@ -106,6 +106,9 @@ nav{
 	background-color: rgba(180, 92, 92, 0.473);
 }
 
+.child-banner .pre-title {
+	color: #fff;
+}
 
 .header-content{
 	margin: 20px 0;
@@ -147,10 +150,8 @@ background-size: cover;
 }
 
 
-.center-title{
-	display: block;
-	width: 100vh;
-	margin: auto ;
+.grape-branches-sp{
+margin: auto;
 }
 
 .block-specials{
