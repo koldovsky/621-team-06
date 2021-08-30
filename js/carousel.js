@@ -5,12 +5,28 @@
         `<p>“Our restaurant has been cooperating with this winery for over 10 years. We order the whole range of wines from them. We are completely satisfied with the quality of the wine supplied to us. And our guests often choose CaliWines from our wine menu.”</p>`
     ];
     let currentSlideIdx = 0;
+    const sliderDots = document.querySelector('.slider-dots');
     function showCurrentSlide() {
         const carouselSlide = document.getElementById('carouselSlide');
         carouselSlide.innerHTML = slides[currentSlideIdx];
+        addButtons();
+    }
+
+    function addButtons() {
+        sliderDots.innerHTML = '';
+        slides.forEach((slide, index) => {
+            const button = document.createElement('button');
+            button.classList.add('dot');
+            button.dataset.slideIndex = index;
+            if (currentSlideIdx === index) {
+                button.classList.add('active');
+            }
+            sliderDots.append(button);
+        })
     }
 
     showCurrentSlide();
+    addButtons();
 
     document.querySelector('.slider .arrow-left').addEventListener('click', () => {
         currentSlideIdx--;
@@ -26,5 +42,13 @@
             currentSlideIdx = 0;
         }
         showCurrentSlide();
+    })
+
+    sliderDots.addEventListener('click', (event) => {
+        const slideIndex = event.target.dataset.slideIndex;
+        if (slideIndex !== undefined) {
+            currentSlideIdx = Number(slideIndex);
+            showCurrentSlide();
+        }
     })
 })();

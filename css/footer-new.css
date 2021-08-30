@@ -85,11 +85,14 @@ footer {
 }
 
 .footer-confiden {
-    display: flex;
-    justify-content: space-between;
     background: rgb(19, 15, 14);
     padding: 15px 0;
     line-height: 32px;
+}
+
+.footer-confiden .container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-confiden p {

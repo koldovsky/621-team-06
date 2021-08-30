@@ -161,6 +161,37 @@
     transform: rotate(180deg);
 }
 
+.slider-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.slider-dots .dot {
+    width: 30px;
+    height: 30px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-dots .dot::before {
+    display: block;
+    content: "";
+    background: #c8693a;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.25;
+}
+.slider-dots .dot:hover:before,
+.slider-dots .dot.active:before {
+    opacity: 1;
+}
+
+
 @media screen and (max-width: 760px) {
     .shop {
         flex-direction: column;
