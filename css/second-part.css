@@ -170,13 +170,14 @@ button.orange-button:hover {
 }
 .wine_price {
     margin-top: 10px;
+    margin-bottom: 10px;
     color: rgb(255, 255, 255);
     font-family: "Rubik", sans-serif;
     font-weight: 600;
     font-size: 16px;
 }
 .wine_name {
-    margin-top: 16px;
+    margin-top: 20px;
     color: rgb(255, 255, 255);
     font-family: "Rubik", sans-serif;
     font-weight: 600;
@@ -193,25 +194,13 @@ button.orange-button:hover {
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
+    display: flex;
+    align-items: center;
 }
 
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-}
-
-.dot {
-    cursor: pointer;
-    height: 13px;
-    width: 13px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active, dot:hover {
-    background-color: #717171;
 }
 
 .wine-carousel {
