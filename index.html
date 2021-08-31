@@ -185,10 +185,10 @@
                 <img class="grape-branches" src="img/grape-branches.svg" alt="grape branches">
                 <p class="subtitle">Shop our best-selling wines. Click on the product images to see the details.</p>
             </div>
-            <div class="wine-carousal">
+            <div class="wine-carousel">
+                <a class="prev" onclick="plusSlides(-1)"><</a>
                 <div class="slide">
-                    <a href="shopping-page.html"><img src="img/red-wine-bottle.jpg" width="360" height="360"
-                            alt="Cabarnet_wine"></a>
+                    <a href="shopping-page.html"><img src="img/red-wine-bottle.jpg" width="360" height="360" alt="Cabarnet_wine"></a>
                     <p class="wine_name">Cabarnet</p>
                     <p class="wine_price">17,00USD</p>
                     <button class="orange-button">Add to card</button>
@@ -211,18 +211,7 @@
                     <p class="wine_price">10,00USD</p>
                     <button class="orange-button">Add to card</button>
                 </div>
-                <div class="slide">
-                    <img src="img/red-wine-bottle.jpg" width="360" height="360" alt="Cabarnet_wine">
-                    <p class="wine_name">Cabarnet</p>
-                    <p class="wine_price">17,00USD</p>
-                    <button class="orange-button">Add to card</button>
-                </div>
-                <div class="slide">
-                    <img src="img/white-wine-bottle.jpg" width="360" height="360" alt="Sauvignon_Blanc">
-                    <p class="wine_name">Sauvignon Blanc</p>
-                    <p class="wine_price">12,00USD</p>
-                    <button class="orange-button">Add to card</button>
-                </div>
+                <a class="next" onclick="plusSlides(1)">></a>
             </div>
             <div id="history">
                 <img class="illustration" src="img/bottles-of-wines.webp" alt="bottles of wines">
@@ -683,7 +672,7 @@
     <script src="./js/carousel.js"></script>
     <script src="./js/popup.js"></script>
     <script src="./js/carsl-events.js"></script>
-
+    <script src="./js/wine-carousel.js"></script>
 </body>
 
 </html>

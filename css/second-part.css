@@ -182,3 +182,50 @@ button.orange-button:hover {
     font-weight: 600;
     font-size: 16px;
 }
+
+.prev, .next {
+    cursor: pointer;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, dot:hover {
+    background-color: #717171;
+}
+
+.wine-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 360px;
+    text-align: center;
+    margin: auto 10px;
+    padding-bottom: 30px;
+}
