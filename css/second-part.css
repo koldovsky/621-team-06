@@ -209,7 +209,7 @@ button.orange-button:hover {
     justify-content: center;
 }
 
-.slide {
+.sliders {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
