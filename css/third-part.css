@@ -48,9 +48,19 @@ img {
 .price-wines {
   margin-top: 16px;
   color: rgb(255, 255, 255);
-  font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  text-align: center ;
+  margin: 15px auto;
+}
+.price-wines p {
+  font-family: "Rubik", sans-serif;
+}
+div.buttons {
+  margin-bottom: 40px;
+}
+.buttons .buy-button {
+  margin-left: 20%;
 }
 .branch-logo {
   display: block;
@@ -89,14 +99,15 @@ img {
   background-attachment: fixed;
   height: 600px;
   margin: auto 10px;
+  padding: 30px 50px;
 }
 .all-buttons {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-column: end;
-  margin: 60px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
   font-size: 100%;
 }
+
 .social-title {
   box-sizing: border-box;
   margin-top: 20px;
@@ -109,7 +120,7 @@ img {
 }
 .text-history {
   margin-top: 20px;
-  width: 250px;
+  width: 400px;
   font-size: 16px;
   line-height: 1.6;
   font-family: Rubik, sans-serif;
@@ -117,4 +128,37 @@ img {
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0;
+}
+
+.videohosting h3 {
+  margin-top: 10px;
+}
+
+.details ul li, .text-wine, .details h2, .details {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.details img {
+  margin: 10px auto;
+}
+.buy-wines {
+  padding-top: 30px;
+}
+.buy-wines h2 {
+  margin: 15px auto;
+}
+
+@media screen and (max-width: 500px) {
+  .buy-button {
+    padding: 3px auto;
+    width: 80px;
+    height: 30px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .child-banner {
+    margin: auto;
+  }
 }

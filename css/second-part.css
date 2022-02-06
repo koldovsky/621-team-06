@@ -1,3 +1,11 @@
+.accorion-heading {
+    padding-left: 20px;
+}
+
+.next-slide , .container-photo-event{
+    display: none;
+}
+
 
 .container-with-nav {
     
@@ -104,14 +112,18 @@ a.clear-button:hover {
 }
 
 .illustration {
-    min-width: 1170px;
-    height: 534px;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    min-height: 170px;
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
 }
 #history {
-    margin: auto 219.5px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 .stage {
     padding-left: 15px;
@@ -146,9 +158,85 @@ a.clear-button:hover {
 }
 .history {
     display: flex;
-	justify-content: space-between;
-    margin: auto 139px;
+	/* justify-content: space-around; */
+    margin: auto;
 }
+
+@media screen and (max-width: 1175px) {
+
+    .next-slide {
+        display: none;
+    }
+    .history {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    #history {
+        margin: 0;
+    }
+
+    .carousel-products{
+        display: none;
+    }
+
+    .details {
+        margin: 0;
+    }
+
+    .accorion-heading, .footer-services {
+        padding-left: 10px;
+    }
+
+    .child-banner {
+        height: 500px;
+        padding-left: 10px;
+    }
+
+    .details img {
+        display: none;
+    }
+
+    .wine-title {
+        font-size: 35px;
+    }
+
+    .container-part-content-right, .container-part-content-left {
+        display: none;
+    }
+
+    .discover-our-wines {
+        font-size: 40px;
+    }
+
+    .container-with-nav p, .container-with-nav div {
+        padding: 0 5px;
+    }
+    .block-events {
+        display: flex;
+        flex-direction: column;
+    }
+    .block-events, .special-events {
+        margin: 5px;
+    }
+    .wrapper-content-hero{
+        padding-left: 0;
+    }
+
+    .ui-title_1 {
+        font-size: 40px;
+    }
+
+    .footer-services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accordion {
+        display: none !important;
+    }
+}
+
 button.orange-button {
     border-radius: 3px;
     font-size: 15px;

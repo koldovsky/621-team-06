@@ -95,3 +95,26 @@
 .modal-open {
     overflow: hidden; 
 }
+
+.child-banner {
+    background: none;
+}
+
+
+@media screen and (max-width: 401px) {
+    .popup-title {
+        padding-top: 30px;
+    }
+    .illustration {
+        max-width: 300px ;
+    }
+    .details ul li, .details h2, .details {
+        margin: 5px auto;
+    }
+    .details {
+        padding: 5px;
+    }
+    .history-wines {
+        padding: 5px;
+    }
+}

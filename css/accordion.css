@@ -34,4 +34,21 @@
   .pasive:hover{
 	  color:azure;
   }
-/* there we have code for accordione above*/
+
+	.accordion-container img  {
+	   margin: auto;
+	   margin-bottom: 20px;
+  }
+  .accorion-heading {
+	  margin: 10px auto;
+  }
+  .pre-title {
+	  margin: auto;
+	  justify-content: center;
+  }
+.accordion-container {
+	display: block;
+	justify-content: center;
+	margin: auto;
+	text-align: center;
+}

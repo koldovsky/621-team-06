@@ -1,6 +1,22 @@
 .footer-services {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.footer-services div {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: start;
+    width: 275px;
+    margin-bottom: 50px;
+}
+.footer-services div img {
+    max-width: 95px;
+}
+
+.footer-services div p {
+    font-family: "Rubik", sans-serif;
 }
 
 .services {
